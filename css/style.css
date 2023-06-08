@@ -1,0 +1,560 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+
+/* --=== Header Button ===--  */
+
+.btn-custom {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    background: #CABB78;
+    border-radius: 100px;
+    color: #162C53;
+    padding: 12px 20px;
+}
+
+.btn-custom:hover {
+    color: #CABB78;
+    background-color: #162C53;
+}
+
+.nav01 {
+    font-family: 'Inter';
+    color: #162C53;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    margin-left: 25px;
+}
+
+
+/* --== Login ==-- */
+
+.loging {
+    text-decoration: none;
+    cursor: pointer;
+    color: #162C53;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+
+/* ---=== Banner ===--- */
+
+.banner {
+    background-color: #162C53;
+    border-radius: 24px 24px 0px 0px;
+    width: 100%;
+    max-height: 100vh;
+}
+
+.manimg {
+    max-height: 570px;
+    position: relative;
+    padding-top: 50px;
+    z-index: 1;
+    margin-left: 195px;
+}
+
+.rec14 {
+    max-height: 531px;
+    position: absolute;
+    content: "";
+    right: 15.5%;
+    top: 122.1px;
+    border: 2px solid #CABB78;
+    border-radius: 300px 300px 0px 0px;
+    z-index: 0;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.hero-content h1 {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 86px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.hero-content span {
+    color: #CABB78;
+}
+
+.hero-content p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.emsignup {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 12px 20px;
+    margin-right: 10px;
+    background: #CABB78;
+    border-radius: 100px;
+    border: none;
+}
+
+.jobsignup {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 12px 20px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+}
+
+/*---==== jobsearch ===---*/
+.jobsearch{
+    background: url(../images/Vector.png);
+    height: 440px;
+}
+.jobsearch_text{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: #162C53;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+.jobsearch_btn {
+    margin-top: 102px;
+    margin-left: 366px;
+}
+.dropbtn{
+align-items: center;
+/* padding: 18px 24px; */
+margin-bottom: 20px;
+border: 1px solid #E1E1E1;
+border-radius: 100px;
+width: 120px;
+height: 60px;
+background: #FFFFFF;
+}
+.searchdop{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    background: #162C53;
+    color: #CABB78;
+    border-radius: 100px;
+    padding: 17px 88px;
+    border: none;
+    margin-bottom: 18px;
+}
+.searchdop{
+    margin-left: 19px;
+}
+/* ---=== about ====--- */
+.wlc{
+    margin-top: 100px;
+    margin-bottom:100px ;
+}
+.about{
+    /* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 93px;
+
+position: absolute;
+width: 1292px;
+height: 453px;
+left: 155px;
+top: 1286px;
+}
+.abbtn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    background: #CABB78;
+    border-radius: 100px;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 32px;
+    
+}
+.abbtn a{
+    text-decoration: none;
+    color: #162C53;
+}
+.wlc_text h1{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 55px;
+    letter-spacing: -1px;
+    color: #162C53;
+}
+.wlc_text p{
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #162C53;
+}
+
+/* top emplo ==-- */
+.topemploy{
+ background: url(../images/Vector.png);
+    height: 450px;
+}
+.toph1{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: #162C53;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+.mercy, .acecamps, .saadi, .masjid{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #162C53;
+    text-align: center;
+}
+.c_prev{
+    top: 365px;
+    width: auto;
+    color:#CABB78;
+    font-family: 'Philosopher';
+    font-weight: 700 !important;
+    opacity: 1;
+    z-index: 999999;
+    left: 14px;
+    transition: .3s;
+}
+.c_prev:hover{
+    color: #000000;
+}
+.c_next{
+    top: 365px;
+    width: auto;
+    color:#CABB78;
+    font-family: 'Philosopher';
+    font-weight: 700 !important;
+    opacity: 1;
+    z-index: 999999;
+    right: 1190px;
+    transition: .3s;
+}
+.c_next:hover{
+    color: #000000;
+}
+.slider_indicators{
+    top: 345px;
+    left: 60px;
+    margin-left: 0;
+    display: inline-table;
+}
+.slider_indicators [data-bs-target] {
+    height: 18px;
+    width: 2px;
+    background-color: #333333;
+}
+
+
+/* Employers ==--- */
+
+.Employers{
+    margin-top: 105px;
+	margin-bottom: 105px;
+}
+.em_content{
+    background: #162C53;
+    color: #FFFFFF;
+	padding: 70px;
+	text-align: center;
+    border-radius: 20px;
+	border: 5px solid rgb(0 0 0 / 5%);
+}
+.em_content h3{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+.em_content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.em_btn{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.em_content2{
+    background: #CABB78;
+    color: #162C53;
+	padding: 70px;
+	text-align: center;
+    border-radius: 20px;
+	border: 5px solid rgb(0 0 0 / 5%);
+}
+.em_content2 h3{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+.em_content2 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+
+/* video  ---- */
+.videobox{
+    background: #F5F6F8;
+}
+.testim_s{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.testim_v{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.v_box{
+	position: relative;
+}
+.v_c{
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 60%;
+}
+.v_btn{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+	width: 60px;
+    height: 60px;
+    background-color: #ff6a06;
+    border-radius: 50%;
+}
+.v_btn i{
+    position: absolute;
+    font-size: 30px;
+	color: white;
+    left: 33%;
+    top: 25%;
+}
+.v_c span{
+    position: absolute;
+	color: white;
+    top: 65%;
+    left: 40%;
+}
+ /* newsletter sec ====---*/
+ .newsletter{
+    background: url(../images/Vector.png);
+    height: 265px;
+ }
+ .l_text{
+    margin-top: 100px;
+    width: 390px;
+ }
+ .subsceibe{
+    align-items: center;
+    text-align: center;
+}
+.subsceibe form {
+    /* max-width: 517px; */
+    margin-top: 120px;
+    position: relative;
+    text-align: center;
+}
+.subsceibe form input:first-child{
+	display: inline-block;
+	width: 505px;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #CABB78;
+	outline: none;
+	border-radius: 30px;
+    margin-left: 130px;
+}
+.subsceibe form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+    font-weight: bold;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:#CABB78;
+	color: #162C53;
+	box-shadow: 0px 0px 5px rgb(248, 247, 247), 0px 0px 15px #CABB78;
+	top: 6px;
+	right: 6px; 
+}
+/*---=== footer sec ===---*/
+.footers{
+	background-color: #162C53;
+}
+.f_logo, .f_os, .f_if, .f_ci{
+	margin-top: 120px;
+}
+.f_logo{
+    color: #ffffff;
+}
+.f_logo h3{
+    font-family: 'Philosopher';
+}
+.f_img, .f_os h3, .f_if h3, .f_ci h3{
+	margin-bottom: 35px;
+	color: #ffffff;
+}
+.f_img img{
+	display: block;
+}
+.f_logo p{
+    font-family: 'Inter';
+	padding-right: 55px;
+    font-size: 16px;
+}
+.f_os{
+    color: #ffffff;
+}
+
+.f_os h3, .f_if h3, .f_ci h3{
+    font-family: 'Philosopher';
+	font-size: 22px;
+	font-weight: 700;
+    margin-bottom: 19px;
+}
+.f_os a{
+    font-family: 'Inter';
+    margin-bottom: 5px;
+	display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.f_if{}
+.f_ifimg{
+	display: block;
+}
+.f_ifimg img{
+	width: 90px;
+	margin-bottom: 15px;
+}
+.f_ci{
+    color: #ffffff;
+}
+.f_ci p{
+    font-family: 'Inter';
+	position: relative;
+	padding-left: 45px;
+}
+.f_ci p i{
+    font-family: 'Inter';
+	position: absolute;
+	top: 5px;
+	left: 0;
+	color: #ffffff;
+}
+.f_ci a{
+	margin-top: 20px;
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+.f_ci a i{
+	margin-right: 30px;
+	color: #ffffff;
+}
+.f_ci ul{
+    margin-left: -76px;
+}
+.f_top li {
+    margin-top: 0px;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.f_top li i {
+
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    color: white !important;
+    transition: all 0.3s ease;
+}
+.f_top li a {
+    margin-top: 0px;
+}
+
+.f_top li:hover i {
+    border-radius: 50%;
+    color: var(--primary-color) !important;
+    background: #CABB78;
+}
+.footer_btm{
+	margin-top: 90px;
+	padding: 15px 0;
+	background-color: #CABB78;
+}
+
+.copyright:hover{color: #ff7214;}
+/*footer end*/

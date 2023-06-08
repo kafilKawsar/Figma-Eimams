@@ -1,0 +1,916 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    body {
+        padding: 0 10px;
+    }
+    .img-fluid {
+        max-width: 70%;
+        height: auto;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+    }
+    #navbarNav {
+        background: #80808012;
+        padding-bottom: 12px;
+    }
+    .nav01 {
+        font-size: 15px;
+        letter-spacing: 0.25px;
+        margin-left: 15px;
+    }
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 10px;
+    }
+    .loging {
+        font-size: 15px;
+        margin: 0 15px;
+    }
+    .nav-link {
+        line-height: 20px;
+    }
+    .btn-custom {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 7px 15px;
+    }
+    .header_wrapper .container {
+        padding: 0;
+    }
+    .dropdown-menu.show {
+        width: 95%;
+        padding: 0;
+    }
+    ul.dropdown-menu li a {
+        font-size: 12px;
+        line-height: 27px;
+    }
+    .dropdown-divider {
+        margin: 0;
+    }
+    /*banner start*/
+    .banner {
+        background-color: #162C53;
+        border-radius: 24px 24px 0px 0px;
+        width: 100%;
+        /* height: 100%; */
+        max-height: 140vh;
+        margin-top: 10px;
+        padding-bottom: 25px;
+    }
+    .b_img {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .img-fluid {
+        max-width: 85%;
+        height: auto;
+    }
+    .manimg{
+        margin-left: -25px;
+        top: -3px;
+        left: -73px;
+    }
+    .rec14 {
+        right: 2.5%;
+        left: 25px;
+        top: 35px;
+        width: 85%;
+    }
+    .hero-content{
+        text-align: center;
+    }
+    .hero-content h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 25px;
+    }
+    .hero-content p {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .em_content{
+        margin-bottom: 40px;
+    }
+    .emsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 11px;
+        margin-bottom: 10px;
+    }
+    .jobsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 11px;
+    }
+    .btns{
+        text-align: center;
+    }
+    /* jobsearch ===-- */
+    .jobsearch {
+        height: 983px;
+    }
+    .jobsearch_text{
+        text-align: center;
+        margin-top: 62px;
+    }
+    .jobsearch_btn {
+        margin-top: 0px;
+        margin-left: 13px;
+    }
+    .seconddrop{
+        text-align: center;
+    }
+    .searchdop{
+        margin-left: 0px;
+    }
+
+
+
+    .wlc {
+        margin-top: 52px;
+        margin-bottom: 15px;
+    }
+    .wlc_text{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .wlc_text h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .wlc_img{
+        text-align: center;
+    }
+    /* topemplo  */
+    .topemploy {
+        background: url(../images/Vector.png);
+        height: 585px;
+    }
+    .toph1{
+        font-size: 40px;
+        margin-top: 38px;
+        text-align: center;
+    }
+    .mercyfd{
+        width: 250px;
+    }
+    .acecmp{
+        width: 250px;
+    }
+    .qua{
+        width: 250px;
+    }
+    .masj{
+        width: 250px;
+    }
+    .c_next{
+        top: 647px;
+        right: 93px;
+    }
+    .slider_indicators {
+        top: 627px;
+        left: 134px;
+    }
+    .c_prev{
+        top: 646px;
+        left: 88px;
+    }
+
+    /* employee */
+    .em_content h3{
+        margin-top: -32px;
+        font-size: 30px;
+    }
+    .em_btn {
+        margin-top: 25px;
+        margin-bottom: -35px;
+        width: 190px;
+        /* text-align: center; */
+        margin-left: -30px;
+    }
+    .em_content2 h3{
+        margin-top: -32px;
+        font-size: 30px;
+    }
+    /* video  */
+    .testim_v {
+        margin-top: 65px;
+        margin-bottom: 75px;
+        text-align: center;
+    }
+    .v_btn {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        width: 50px;
+        height: 50px;
+        background-color: #ff6a06;
+        border-radius: 50%;
+    }
+    .v_c span {
+        position: absolute;
+        color: white;
+        top: 70%;
+        left: 30%;
+    }
+    .testim_s {
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+    .caimg{
+        width: 278px;
+    }
+    /*---== footer ==--- */
+    .footers{
+        text-align: center;
+    }
+    .f_logo, .f_os, .f_if, .f_ci {
+        margin-top: 60px;
+    }
+    .f_logo p {
+        padding-right: 0px;
+    }
+    .f_ci ul {
+         margin-left: -3px;
+    }
+    .footer_btm {
+        margin-top: 45px;
+        color: white;
+    }
+    /* newsletter  */
+    .newsletter {
+        height: 314px;
+    }
+    .l_text {
+        width: 279px;
+        margin-top: 53px;
+        text-align: center;
+    }
+    .subsceibe form input:last-child {
+        right: -55px;
+    }
+    .subsceibe form input:first-child {
+        display: inline-block;
+        width: 280px;
+        padding: 14px 130px 14px 15px;
+        border: 2px solid #CABB78;
+        outline: none;
+        border-radius: 30px;
+        margin-left: 0px;
+    }
+    .subsceibe form {
+        max-width: 217px;
+        /* margin-top: 20px; */
+        position: relative;
+        text-align: center;
+    }
+    .subsceibe form {
+        max-width: 217px;
+        margin-top: 14px;
+        position: relative;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        padding: 0 10px;
+    }
+    .navbar .container {
+        margin: 0;
+        max-width: 100%;
+    }
+    .navbar-brand .img-fluid {
+        max-width: 85%;
+        height: auto;
+    }
+    .navbar-brand {
+        margin-left: 12px;
+    }
+    .navbar-toggler {
+        margin-right: 12px;
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    #navbarNav {
+        background: #80808012;
+        padding: 15px 0 18px;
+    }
+    .nav01 {
+        font-size: 15px;
+        letter-spacing: 0.25px;
+        margin-left: 15px;
+    }
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 10px;
+    }
+    .loging {
+        font-size: 15px;
+        margin: 0 15px;
+    }
+    .nav-link {
+        line-height: 20px;
+    }
+    .btn-custom {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 20px;
+    }
+    .header_wrapper .container {
+        padding: 0;
+    }
+    .dropdown-menu.show {
+        width: 40%;
+        padding: 0;
+    }
+    ul.dropdown-menu li a {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .dropdown-divider {
+        margin: 0;
+    }
+    /*banner start*/
+    .banner {
+        background-color: #162C53;
+        border-radius: 24px 24px 0px 0px;
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        padding-bottom: 25px;
+    }
+    .b_img {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .img-fluid {
+        max-width: 68%;
+        height: auto;
+    }
+    .rec14 {
+        right: 12.5%;
+        top: 35px;
+        width: 67%;
+        
+    }
+    .hero-content {
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 38px;
+        line-height: 45px;
+        margin-top: 32px;
+    }
+    .hero-content p {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 45px;
+        margin-right: 10px;
+    }
+    .emsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 20px;
+        margin-bottom: 10px;
+    }
+    .jobsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 20px;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        padding: 0 10px;
+    }
+    .navbar .container {
+        margin: 0;
+        max-width: 100%;
+    }
+    .navbar-brand .img-fluid {
+        max-width: 85%;
+        height: auto;
+    }
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    #navbarNav {
+        background: #80808012;
+        padding: 15px 0 18px;
+    }
+    .nav01 {
+        font-size: 16px;
+        letter-spacing: 0.25px;
+        margin-left: 15px;
+    }
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 10px;
+    }
+    .loging {
+        font-size: 15px;
+        margin: 0 15px;
+    }
+    .nav-link {
+        line-height: 20px;
+    }
+    .btn-custom {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 20px;
+    }
+    .header_wrapper .container {
+        padding: 0;
+    }
+    .dropdown-menu.show {
+        width: 40%;
+        padding: 0;
+    }
+    ul.dropdown-menu li a {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .dropdown-divider {
+        margin: 0;
+    }
+    /*banner start*/
+    .banner {
+        background-color: #162C53;
+        border-radius: 24px 24px 0px 0px;
+        width: 100%;
+        /* height: 100%; */
+        max-height: 155vh;
+        margin-top: 10px;
+        padding-bottom: 25px;
+    }
+    .b_img {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .img-fluid {
+        max-width: 68%;
+        height: auto;
+    }
+    .manimg{
+        margin-left: -32px;
+        top: -4px;
+        left: -88px;
+    }
+    .rec14 {
+        right: 16.5%;
+        top: 35px;
+        width: 64%;
+        left: 143px;
+    }
+    .hero-content {
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 44px;
+        line-height: 45px;
+        margin-top: 32px;
+    }
+    .hero-content p {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 70px;
+        margin-right: 35px;
+    }
+    .emsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 20px;
+        margin-bottom: 10px;
+    }
+    .jobsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 20px;
+    }
+    .em_content{
+        margin-bottom: 40px;
+    }
+    /* topemploye ===--- */
+    .toph1{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .topemploy {
+        background: url(../images/Vector.png);
+        height: 826px;
+    }
+    .slider_indicators {
+        top: 738px;
+        left: 364px;
+    }
+    .c_prev{
+        top: 757px;
+        left: 302px;
+    }
+    .c_next{
+        top: 757px;
+        right: 268px;
+    }
+
+    /* jobsearch ==-- */
+    .jobsearch {
+        height: 550px;
+    }
+    .jobsearch_btn {
+        margin-top: 100px;
+        margin-left: -47px;
+    }
+    .jobsearch_text{
+        margin-top: 95px;
+    }
+    .dropbtn{
+        width: 115px;
+    }
+    /* wlc ===-- */
+    .wlc{
+        margin-top: 65px;
+        margin-bottom: 60px;
+    }
+    .wlc_img{
+        text-align: center;
+    }
+    .wlc_text{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .videobox {
+        background: #F5F6F8;
+        text-align: center;
+    }
+    .testim_s {
+        margin-top: 0px;
+        margin-bottom: 120px;
+    }
+
+    /* footer ===--- */
+    .footers {
+        text-align: center;
+
+    }
+    .f_ci ul {
+        margin-left: 0px;
+    }
+    .f_logo, .f_os, .f_if, .f_ci {
+        margin-top: 41px;
+    }
+     /* newsletter ===-- */
+     .l_text {
+        margin-top: 77px;
+        width: 277px;
+    }
+    .subsceibe form input:first-child {
+        width: 219px;
+    }
+    .subsceibe form input:first-child {
+        width: 358px;
+        margin-left: -9px;
+    }
+    .subsceibe form input:last-child {
+        right: -126px;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        padding: 0 10px;
+    }
+    .navbar .container {
+        margin: 0 25px;
+        max-width: 100%;
+    }
+    .navbar-expand-lg {
+        padding-top: 0;
+    }
+    .navbar-brand .img-fluid {
+        max-width: 85%;
+        height: auto;
+    }
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    .nav01 {
+        font-size: 16px;
+        letter-spacing: 0.25px;
+        margin-left: 15px;
+    }
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 10px;
+    }
+    .loging {
+        font-size: 16px;
+        margin: 0 15px;
+    }
+    .nav-link {
+        line-height: 20px;
+    }
+    .btn-custom {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px 20px;
+    }
+    .header_wrapper .container {
+        padding: 0;
+    }
+    .dropdown-menu.show {
+        min-width: 70% !important;
+        padding: 0;
+    }
+    ul.dropdown-menu li a {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .dropdown-divider {
+        margin: 0;
+    }
+    /*banner start*/
+    .banner {
+        background-color: #162C53;
+        border-radius: 24px 24px 0px 0px;
+        width: 100%;
+        height: 100%;
+        margin-top: 5px;
+    }
+    .b_img {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .img-fluid {
+        max-width: 68%;
+        height: auto;
+    }
+    .manimg{
+        left: -42px;
+    }
+    .rec14 {
+        right: 12px;
+        top: 41px;
+        width: 67%;
+        left: 135px;
+    }
+    .hero-content h1 {
+        font-size: 50px;
+        line-height: 55px;
+        margin-top: 32px;
+    }
+    .hero-content p {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .emsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 20px;
+        margin-bottom: 10px;
+    }
+    .jobsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 20px;
+    }
+
+    /* jobsearch ==-- */
+    .jobsearch {
+        background: url(../images/Vector.png);
+        height: 412px;
+    }
+    .jobsearch_btn {
+        margin-top: 102px;
+        margin-left: 191px;
+    }
+    .dropbtn{
+        width: 92px;
+        height: 60px;
+    }
+    .searchdop{
+        padding: 17px 51px;
+        margin-bottom: 17px;
+    }
+
+    .c_next{
+        right: 827px;
+    }
+    /* ---== wlc ===--- */
+    .wlc_img{
+        width: 580px;
+    }
+
+    .v_box {
+        width: 622px;
+    }
+    .caimg{
+        width: 426px;
+    }
+    .v_btn {
+        left: 30%;
+    }
+    .v_c span {
+        top: 75%;
+        left: 25%;
+    }
+    .testim_v {
+        margin-left: 30px;
+    }
+
+    .em_content2{
+        padding: 99px;
+    }
+
+    /* --=== newsletter ===-- */
+    .subsceibe form input:first-child {
+        display: inline-block;
+        width: 453px;
+        padding: 14px 130px 14px 15px;
+        border: 2px solid #CABB78;
+        outline: none;
+        border-radius: 30px;
+        margin-left: 0px;
+    }
+    .l_text {
+        margin-top: 85px;
+        width: 374px;
+    }
+
+    /* footer */
+    .f_ci {
+        margin-left: 40px;
+    }
+    .f_ci ul {
+        margin-left: -46px;
+    }
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width:1399.98px) {
+    body {
+        padding: 0 10px;
+    }
+    .navbar .container {
+        margin: 0 25px;
+        max-width: 100%;
+    }
+    .navbar-expand-lg {
+        padding-top: 0;
+    }
+    .navbar-brand .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    .nav01 {
+        font-size: 17px;
+        letter-spacing: 0.25px;
+        margin-left: 15px;
+    }
+    .ms-auto {
+        margin-left: auto !important;
+        margin-top: 10px;
+    }
+    .loging {
+        font-size: 17px;
+        margin: 0 15px;
+    }
+    .nav-link {
+        line-height: 20px;
+    }
+    .btn-custom {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 10px 20px;
+    }
+    .header_wrapper .container {
+        padding: 0;
+    }
+    .dropdown-menu.show {
+        min-width: 90%;
+        padding: 0;
+    }
+    ul.dropdown-menu li a {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .dropdown-divider {
+        margin: 0;
+    }
+    /*banner start*/
+    .banner {
+        background-color: #162C53;
+        border-radius: 24px 24px 0px 0px;
+        width: 100%;
+        height: 100%;
+        margin-top: 5px;
+    }
+    .b_img {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .img-fluid {
+        max-width: 68%;
+        height: auto;
+    }
+    .rec14 {
+        right: 12.5%;
+        top: 35px;
+        width: 67%;
+    }
+    .hero-content h1 {
+        font-size: 60px;
+        line-height: 60px;
+        margin-top: 32px;
+    }
+    .hero-content p {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .emsignup {
+        font-size: 16px;
+        line-height: 15px;
+        padding: 15px 20px;
+        margin-bottom: 10px;
+    }
+    .jobsignup {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 20px;
+    }
+}
+
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+
+@media (max-width:1399.98px) {
+
+    .manimg{
+        margin-left: 135px;
+    }
+    .rec14{
+        right: 345px;
+    }
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) and (max-width: 1919px) {
+    .manimg{
+        margin-left: 135px;
+    }
+    .rec14{
+        right: 110px;
+    }
+}
